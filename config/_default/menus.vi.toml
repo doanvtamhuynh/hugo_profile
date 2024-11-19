@@ -1,0 +1,29 @@
+[[main]]
+name = "Trang chủ"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[main]]
+name = "Bài viết"
+weight = 200
+identifier = "posts"
+url = "/post/"
+
+[[main]]
+name = "Dự án"
+weight = 300
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[main]]
+name = "Giới thiệu"
+weight = 400
+identifier = "about"
+url = "/about/"
+
+[[footer]]
+name = "Thông tin pháp lý"
+weight = 1
+identifier = "imprint"
+url = "/imprint/"
