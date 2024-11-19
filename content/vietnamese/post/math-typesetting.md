@@ -1,26 +1,26 @@
 ---
 author: Hugo Authors
-title: Math Typesetting
+title: Định Dạng Toán Học
 date: 2019-03-08
-description: A brief guide to setup KaTeX
+description: Hướng dẫn ngắn gọn để thiết lập KaTeX
 math: true
 ---
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+Công thức toán học trong một dự án Hugo có thể được bật lên bằng cách sử dụng các thư viện JavaScript của bên thứ ba.
 
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/)
+Trong ví dụ này, chúng ta sẽ sử dụng [KaTeX](https://katex.org/)
 
-- Create a partial under `/layouts/partials/math.html`
-- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
-- Include the partial in your templates like so:
+- Tạo một partial dưới `/layouts/partials/math.html`
+- Trong partial này, tham chiếu đến [Tiện ích Tự động render](https://katex.org/docs/autorender.html) hoặc tải các tập tin script này về máy.
+- Bao gồm partial trong các mẫu của bạn như sau:
 
 ```bash
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
-```
+
 
 - To enable KaTex globally set the parameter `math` to `true` in a project's configuration
 - To enable KaTex on a per page basis include the parameter `math: true` in content files

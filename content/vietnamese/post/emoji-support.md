@@ -1,29 +1,29 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
+author = "Tác giả Hugo"
+title = "Hỗ trợ Emoji"
 date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
+description = "Hướng dẫn sử dụng emoji trong Hugo"
 tags = [
     "emoji",
 ]
 +++
 
-Emoji can be enabled in a Hugo project in a number of ways.
+Hugo hỗ trợ sử dụng emoji theo nhiều cách khác nhau.
 
 <!--more-->
 
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+Hàm [`emojify`](https://gohugo.io/functions/emojify/) có thể được gọi trực tiếp trong các mẫu giao diện (templates) hoặc [Shortcode nội tuyến](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+Để bật emoji trên toàn bộ trang web, hãy đặt `enableEmoji` thành `true` trong [tệp cấu hình](https://gohugo.io/getting-started/configuration/) của bạn. Sau đó, bạn có thể sử dụng các mã viết tắt của emoji trực tiếp trong các tệp nội dung, ví dụ:
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+[Bảng mã Emoji](http://www.emoji-cheat-sheet.com/) là một tài liệu tham khảo hữu ích cho các mã viết tắt emoji.
 
 ---
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+**Lưu ý:** Các bước trên cho phép sử dụng các ký tự và chuỗi emoji theo Tiêu chuẩn Unicode trong Hugo, tuy nhiên việc hiển thị các biểu tượng này phụ thuộc vào trình duyệt và nền tảng. Để tùy chỉnh kiểu hiển thị của emoji, bạn có thể sử dụng font emoji của bên thứ ba hoặc sử dụng một bộ font kết hợp; ví dụ:
 
 {{< highlight html >}}
 .emoji {

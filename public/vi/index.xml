@@ -6,26 +6,15 @@
     <description>Recent content on Blog của tôi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/vi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/vi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awards</title>
-      <link>http://localhost:1313/vi/awards/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Giới thiệu</title>
+      <link>http://localhost:1313/vi/about/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/vi/awards/</guid>
+      <guid>http://localhost:1313/vi/about/</guid>
       
-        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
-      
-    </item>
-    
-    <item>
-      <title>Certifications</title>
-      <link>http://localhost:1313/vi/certifications/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/vi/certifications/</guid>
-      
-        <description>Hugo Certifications</description>
+        <description>&lt;p&gt;Là một Nhà phát triển phần mềm tận tụy và đam mê, tôi có nhiều kinh nghiệm trong việc thiết kế, phát triển và bảo trì các ứng dụng phần mềm trên nhiều nền tảng khác nhau. Chuyên môn của tôi bao gồm thành thạo ngôn ngữ lập trình, cũng như kinh nghiệm với các công nghệ front-end và back-end. Tôi cam kết clean code, hiệu quả và liên tục cải thiện kỹ năng của mình để luôn cập nhật các xu hướng mới nhất của ngành. Khả năng giải quyết vấn đề mạnh mẽ và bản chất cộng tác của tôi cho phép tôi làm việc hiệu quả trong các nhóm và đóng góp vào kết quả thành công của dự án. Tôi luôn háo hức đón nhận những thách thức mới và đổi mới các giải pháp thúc đẩy thành công trong kinh doanh.&lt;/p&gt;</description>
       
     </item>
     
@@ -47,7 +36,7 @@
       
       <guid>http://localhost:1313/vi/post/series-part-2/</guid>
       
-        <description>A brief guide to how to setup series part 2</description>
+        <description>Hướng dẫn ngắn gọn về cách thiết lập phần 2 của series</description>
       
     </item>
     
@@ -58,7 +47,7 @@
       
       <guid>http://localhost:1313/vi/post/series-part-1/</guid>
       
-        <description>A brief guide to how to setup series part 1</description>
+        <description>Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series</description>
       
     </item>
     
@@ -74,35 +63,24 @@
     </item>
     
     <item>
-      <title>The Figure Shortcode</title>
+      <title>Shortcode Figure</title>
       <link>http://localhost:1313/vi/post/figure-shortcode/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/figure-shortcode/</guid>
       
-        <description>&lt;p&gt;Hugo has &lt;code&gt;figure&lt;/code&gt; shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:&lt;/p&gt;</description>
+        <description>&lt;p&gt;Hugo có sẵn shortcode &lt;code&gt;figure&lt;/code&gt;, giúp bạn dễ dàng thêm chú thích hoặc thuộc tính liên kết (hyperlink rel) vào hình ảnh. Tài liệu hướng dẫn chi tiết có tại đây:&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/vi/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/vi/archives/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
+      <title>Hướng Dẫn Cú Pháp Markdown</title>
       <link>http://localhost:1313/vi/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/markdown-syntax/</guid>
       
-        <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+        <description>Bài viết mẫu giới thiệu cú pháp Markdown cơ bản và định dạng cho các phần tử HTML.</description>
       
     </item>
     
@@ -129,73 +107,35 @@
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/vi/contact/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/vi/contact/</guid>
-      
-        <description>Contact Page</description>
-      
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
+      <title>Định Dạng Toán Học</title>
       <link>http://localhost:1313/vi/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/math-typesetting/</guid>
       
-        <description>A brief guide to setup KaTeX</description>
+        <description>Hướng dẫn ngắn gọn để thiết lập KaTeX</description>
       
     </item>
     
     <item>
-      <title>Emoji Support</title>
+      <title>Hỗ trợ Emoji</title>
       <link>http://localhost:1313/vi/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/emoji-support/</guid>
       
-        <description>Guide to emoji usage in Hugo</description>
+        <description>Hướng dẫn sử dụng emoji trong Hugo</description>
       
     </item>
     
     <item>
-      <title>Guide to Thumbnails in Hugo</title>
+      <title>Hướng Dẫn Sử Dụng Hình Thu Nhỏ (Thumbnail) trong Hugo</title>
       <link>http://localhost:1313/vi/post/image-test/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/image-test/</guid>
       
-        <description>Guide to Thumbnails in Hugo</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/vi/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/vi/about/</guid>
-      
-        <description>Hugo, the world&#39;s fastest framework for building websites</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/vi/imprint/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/vi/imprint/</guid>
-      
-        <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
-&lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
-&lt;p&gt;Jane Doe&lt;br&gt;
-Anatole Street 10&lt;br&gt;
-2016 GoHugo&lt;br&gt;
-Germany&lt;/p&gt;</description>
+        <description>Hướng Dẫn Sử Dụng Hình Thu Nhỏ trong Hugo</description>
       
     </item>
     

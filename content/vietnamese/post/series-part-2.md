@@ -2,16 +2,16 @@
 author: Hugo Authors
 title: Series Part 2
 date: 2021-08-15
-description: A brief guide to how to setup series part 2
+description:  Hướng dẫn ngắn gọn về cách thiết lập phần 2 của series
 series:
   - series-setup
 ---
 
-In this second part of the series we'll show you where to find the full series
+Trong phần thứ hai của loạt bài này, chúng tôi sẽ chỉ cho bạn nơi tìm thấy toàn bộ loạt bài
 
 <!--more-->
 
-When you created a series, you'll probably want to link to the full set of blogposts.  
-In this example we used `series-setup` as our series name.
+Khi bạn tạo một loạt bài, có thể bạn sẽ muốn liên kết đến toàn bộ các bài đăng trên blog.
+Trong ví dụ này, chúng tôi sử dụng `series-setup` làm tên loạt bài.
 
-This means we can now go to [http://localhost:1313/series/series-setup/](http://localhost:1313/series/series-setup/) to see all the blog posts of this serie.
+Điều này có nghĩa là bây giờ chúng ta có thể truy cập [http://localhost:1313/series/series-setup/](http://localhost:1313/series/series-setup/) để xem tất cả các bài đăng trên blog của loạt bài này.

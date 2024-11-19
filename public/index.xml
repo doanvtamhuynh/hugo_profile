@@ -6,26 +6,15 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awards</title>
-      <link>http://localhost:1313/awards/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/awards/</guid>
+      <guid>http://localhost:1313/about/</guid>
       
-        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
-      
-    </item>
-    
-    <item>
-      <title>Certifications</title>
-      <link>http://localhost:1313/certifications/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/certifications/</guid>
-      
-        <description>Hugo Certifications</description>
+        <description>&lt;p&gt;As a dedicated and passionate Software Developer, I have extensive experience in designing, developing, and maintaining software applications across various platforms. My expertise includes proficiency in programming languages, as well as experience with front-end and back-end technologies. I am committed to writing clean, efficient code and continuously improving my skills to stay updated with the latest industry trends. My strong problem-solving abilities and collaborative nature enable me to work effectively in teams and contribute to successful project outcomes. I am always eager to take on new challenges and innovate solutions that drive business success.&lt;/p&gt;</description>
       
     </item>
     
@@ -85,17 +74,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/archives/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>Markdown Syntax Guide</title>
       <link>http://localhost:1313/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -129,17 +107,6 @@
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/contact/</guid>
-      
-        <description>Contact Page</description>
-      
-    </item>
-    
-    <item>
       <title>Math Typesetting</title>
       <link>http://localhost:1313/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -169,33 +136,6 @@
       <guid>http://localhost:1313/post/image-test/</guid>
       
         <description>Guide to Thumbnails in Hugo</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      
-        <description>Hugo, the world&#39;s fastest framework for building websites</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/imprint/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/imprint/</guid>
-      
-        <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
-&lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
-&lt;p&gt;Jane Doe&lt;br&gt;
-Anatole Street 10&lt;br&gt;
-2016 GoHugo&lt;br&gt;
-Germany&lt;/p&gt;</description>
       
     </item>
     

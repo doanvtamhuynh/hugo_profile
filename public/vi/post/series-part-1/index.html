@@ -20,7 +20,7 @@
   <meta name="author" content="Tam Huynh" />
   <meta
     name="description"
-    content="A brief guide to how to setup series part 1"
+    content="Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series"
   />
   
   
@@ -116,7 +116,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
   <meta name="twitter:title" content="Series Part 1">
-  <meta name="twitter:description" content="A brief guide to how to setup series part 1">
+  <meta name="twitter:description" content="Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series">
 
 
 
@@ -124,7 +124,7 @@
   <meta property="og:url" content="http://localhost:1313/vi/post/series-part-1/">
   <meta property="og:site_name" content="Blog của tôi">
   <meta property="og:title" content="Series Part 1">
-  <meta property="og:description" content="A brief guide to how to setup series part 1">
+  <meta property="og:description" content="Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series">
   <meta property="og:locale" content="vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -148,7 +148,7 @@
         "headline": "Series Part 1",
         "alternativeHeadline": "",
         "description": "
-      A brief guide to how to setup series part 1
+      Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series
 
 
     ",
@@ -200,7 +200,7 @@
 
     ,
         "url" : "http:\/\/localhost:1313\/vi\/post\/series-part-1\/",
-        "wordCount" : "168",
+        "wordCount" : "197",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -232,7 +232,7 @@
         </div>
       
       <div class="sidebar__introduction-description">
-        <p>Call me Huynh</p>
+        <p>A passionate developer from Vietnam</p>
       </div>
     </div>
     <ul class="sidebar__list">
@@ -295,18 +295,21 @@
         2024
       
     </li>
-    
       <li class="footer__item">
         <a
           class="link"
-          href="/imprint/"
-          
-          title=""
+          href="https://github.com/doanvtamhuynh/anatole_custom"
         >
-          Thông tin pháp lý
+        Anatole_custom
+        </a>
+        theme on
+        <a
+          class="link"
+          href="https://gohugo.io/"
+        >
+        Hugo
         </a>
       </li>
-    
   </ul>
 </footer>
   
@@ -463,17 +466,17 @@
             <span class="post__meta-text">Đọc trong 1 phút</span>
           </li>
         </ul>
-      <p>In this first part of the series we&rsquo;ll show you how to create a series</p>
-<p>As a first step we need to add series as a taxonomy. We can do this by editing the <code>config.toml</code>.<br>
-Note: We always need to define the existing taxonomies as well.</p>
+      <p>Trong phần đầu tiên của loạt bài này, chúng tôi sẽ chỉ cho bạn cách tạo một loạt bài</p>
+<p>Bước đầu tiên, chúng ta cần thêm series dưới dạng phân loại. Chúng ta có thể thực hiện việc này bằng cách chỉnh sửa <code>config.toml</code>.
+Lưu ý: Chúng ta luôn cần phải xác định các phân loại hiện có.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">series</span> <span class="p">=</span> <span class="s2">&#34;series&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
-</span></span></code></pre></div><p>Now we have the series enabled, the next thing we need to do is add the series name in the FrontMatter.
-For our example we&rsquo;ll use this post and the next part.</p>
-<p>As you can see we&rsquo;ve set the series to <code>series-setup</code>. We also do the same in the next parts of the series.<br>
-This end results should be a Front Matter that looks similar to this:</p>
+</span></span></code></pre></div><p>Bây giờ chúng ta đã bật chuỗi, việc tiếp theo chúng ta cần làm là thêm tên chuỗi vào FrontMatter.
+Đối với ví dụ của chúng ta, chúng ta sẽ sử dụng bài đăng này và phần tiếp theo.</p>
+<p>Như bạn có thể thấy, chúng ta đã đặt chuỗi thành <code>series-setup</code>. Chúng ta cũng làm tương tự trong các phần tiếp theo của chuỗi.
+Kết quả cuối cùng này sẽ là một Front Matter trông giống như thế này:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">---
 </span></span><span class="line"><span class="cl">author: Hugo Authors
 </span></span><span class="line"><span class="cl">title: Series Part 1
@@ -482,7 +485,7 @@ This end results should be a Front Matter that looks similar to this:</p>
 </span></span><span class="line"><span class="cl">series:
 </span></span><span class="line"><span class="cl">  <span class="k">-</span> series-setup
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Each individual post will now also show the other posts in the series under the <code>Posts in this Series</code> heading.</p>
+</span></span></code></pre></div><p>Mỗi bài đăng riêng lẻ giờ đây cũng sẽ hiển thị các bài đăng khác trong chuỗi dưới tiêu đề <code>Bài đăng trong chuỗi này</code>.</p>
 
 
 <h3>Các bài viết trong chuỗi này</h3>
@@ -513,18 +516,21 @@ This end results should be a Front Matter that looks similar to this:</p>
         2024
       
     </li>
-    
       <li class="footer__item">
         <a
           class="link"
-          href="/imprint/"
-          
-          title=""
+          href="https://github.com/doanvtamhuynh/anatole_custom"
         >
-          Thông tin pháp lý
+        Anatole_custom
+        </a>
+        theme on
+        <a
+          class="link"
+          href="https://gohugo.io/"
+        >
+        Hugo
         </a>
       </li>
-    
   </ul>
 </footer>
   

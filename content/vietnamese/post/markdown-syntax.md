@@ -1,8 +1,8 @@
 +++
 author = "Hugo Authors"
-title = "Markdown Syntax Guide"
+title = "Hướng Dẫn Cú Pháp Markdown"
 date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description = "Bài viết mẫu giới thiệu cú pháp Markdown cơ bản và định dạng cho các phần tử HTML."
 tags = [
     "markdown",
     "css",
@@ -16,13 +16,13 @@ series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Bài viết này cung cấp một ví dụ về cú pháp Markdown cơ bản có thể sử dụng trong các tệp nội dung Hugo, cũng như cho thấy liệu các phần tử HTML cơ bản có được trang trí bằng CSS trong một chủ đề Hugo hay không.
 
 <!--more-->
 
-## Headings
+## Đầu Mục (Headings)
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Các phần tử HTML `<h1>`—`<h6>` đại diện cho sáu cấp độ tiêu đề. `<h1>` là cấp tiêu đề cao nhất trong khi `<h6>` là cấp thấp nhất.
 
 # H1
 
@@ -36,46 +36,46 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 
 ###### H6
 
-## Paragraph
+## Đoạn Văn
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Blockquotes
+## Trích Dẫn (Blockquotes)
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+Phần tử trích dẫn đại diện cho nội dung được trích dẫn từ nguồn khác, có thể có hoặc không có nguồn trích dẫn (citation) và có thể có thay đổi nội dung như chú thích và viết tắt.
 
-#### Blockquote without attribution
+#### Trích dẫn không có nguồn
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+> **Lưu ý** rằng bạn có thể sử dụng _cú pháp Markdown_ trong một trích dẫn.
 
-#### Blockquote with attribution
+#### Trích dẫn có nguồn
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> Đừng giao tiếp bằng cách chia sẻ bộ nhớ, hãy chia sẻ bộ nhớ bằng cách giao tiếp.<br>
 > — <cite>Rob Pike[^1]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: Câu trên được trích từ [bài nói chuyện](https://www.youtube.com/watch?v=PAAkCSZUG1c) của Rob Pike trong Gopherfest, ngày 18 tháng 11 năm 2015.
 
-## Tables
+## Bảng (Tables)
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+Bảng không phải là một phần của đặc tả Markdown cơ bản, nhưng Hugo hỗ trợ chúng ngay ngoài hộp.
 
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
+| Tên    | Tuổi |
+| ------ | ---- |
+| Bob    | 27   |
+| Alice  | 23   |
 
-#### Inline Markdown within tables
+#### Markdown trong bảng
 
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| In nghiêng   | In đậm   | Mã lệnh  |
+| ------------ | -------- | -------- |
+| _in nghiêng_ | **in đậm** | `mã lệnh` |
 
-## Code Blocks
+## Khối Mã (Code Blocks)
 
-#### Code block with backticks
+#### Khối mã với dấu nháy đơn
 
 ```html
 <!doctype html>
@@ -88,22 +88,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     <p>Test</p>
   </body>
 </html>
-```
-
-#### Code block indented with four spaces
-
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8" />
-        <title>Example HTML5 Document</title>
-      </head>
-      <body>
-        <p>Test</p>
-      </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
+#### Khối mã với shortcode highlight nội bộ của Hugo
 
 {{< highlight html >}}
 
@@ -117,40 +102,41 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     <p>Test</p>
   </body>
 </html>
+
 {{< /highlight >}}
 
-## List Types
+## Các loại danh sách
 
-#### Ordered List
+#### Danh sách có thứ tự
 
-1. First item
-2. Second item
-3. Third item
+1. Mục đầu tiên
+2. Mục thứ hai
+3. Mục thứ ba
 
-#### Unordered List
+#### Danh sách không có thứ tự
 
-- List item
-- Another item
-- And another item
+- Mục trong danh sách
+- Mục khác trong danh sách
+- Và một mục khác nữa
 
-#### Nested list
+#### Danh sách lồng nhau
 
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- Trái cây
+  - Táo
+  - Cam
+  - Chuối
+- Sữa phẩm
+  - Sữa
+  - Phô mai
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Các phần tử khác — abbr, sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> là một định dạng hình ảnh bitmap.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+Nhấn <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> để kết thúc phiên.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Hầu hết <mark>con kỳ nhông</mark> là động vật hoạt động về đêm và săn tìm côn trùng, giun, và các sinh vật nhỏ khác.

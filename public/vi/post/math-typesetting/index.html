@@ -11,7 +11,7 @@
   <title>
     
       
-        Math Typesetting |
+        Định Dạng Toán Học |
       Tam Huynh
 
   </title>
@@ -20,7 +20,7 @@
   <meta name="author" content="Tam Huynh" />
   <meta
     name="description"
-    content="A brief guide to setup KaTeX"
+    content="Hướng dẫn ngắn gọn để thiết lập KaTeX"
   />
   
   
@@ -115,16 +115,16 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
-  <meta name="twitter:title" content="Math Typesetting">
-  <meta name="twitter:description" content="A brief guide to setup KaTeX">
+  <meta name="twitter:title" content="Định Dạng Toán Học">
+  <meta name="twitter:description" content="Hướng dẫn ngắn gọn để thiết lập KaTeX">
 
 
 
   
   <meta property="og:url" content="http://localhost:1313/vi/post/math-typesetting/">
   <meta property="og:site_name" content="Blog của tôi">
-  <meta property="og:title" content="Math Typesetting">
-  <meta property="og:description" content="A brief guide to setup KaTeX">
+  <meta property="og:title" content="Định Dạng Toán Học">
+  <meta property="og:description" content="Hướng dẫn ngắn gọn để thiết lập KaTeX">
   <meta property="og:locale" content="vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -143,11 +143,11 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "Math Typesetting",
-        "headline": "Math Typesetting",
+        "name": "Định Dạng Toán Học",
+        "headline": "Định Dạng Toán Học",
         "alternativeHeadline": "",
         "description": "
-      A brief guide to setup KaTeX
+      Hướng dẫn ngắn gọn để thiết lập KaTeX
 
 
     ",
@@ -199,7 +199,7 @@
 
     ,
         "url" : "http:\/\/localhost:1313\/vi\/post\/math-typesetting\/",
-        "wordCount" : "120",
+        "wordCount" : "146",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -231,7 +231,7 @@
         </div>
       
       <div class="sidebar__introduction-description">
-        <p>Call me Huynh</p>
+        <p>A passionate developer from Vietnam</p>
       </div>
     </div>
     <ul class="sidebar__list">
@@ -294,18 +294,21 @@
         2024
       
     </li>
-    
       <li class="footer__item">
         <a
           class="link"
-          href="/imprint/"
-          
-          title=""
+          href="https://github.com/doanvtamhuynh/anatole_custom"
         >
-          Thông tin pháp lý
+        Anatole_custom
+        </a>
+        theme on
+        <a
+          class="link"
+          href="https://gohugo.io/"
+        >
+        Hugo
         </a>
       </li>
-    
   </ul>
 </footer>
   
@@ -448,7 +451,7 @@
     
     <div class="post__content">
       
-        <h1>Math Typesetting</h1>
+        <h1>Định Dạng Toán Học</h1>
       
       
         <ul class="post__meta">
@@ -468,28 +471,35 @@
             <span class="post__meta-text">Đọc trong 1 phút</span>
           </li>
         </ul>
-      <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+      <p>Công thức toán học trong một dự án Hugo có thể được bật lên bằng cách sử dụng các thư viện JavaScript của bên thứ ba.</p>
+<p>Trong ví dụ này, chúng ta sẽ sử dụng <a href="https://katex.org/">KaTeX</a></p>
 <ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:</li>
+<li>Tạo một partial dưới <code>/layouts/partials/math.html</code></li>
+<li>Trong partial này, tham chiếu đến <a href="https://katex.org/docs/autorender.html">Tiện ích Tự động render</a> hoặc tải các tập tin script này về máy.</li>
+<li>Bao gồm partial trong các mẫu của bạn như sau:</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
 </span></span><span class="line"><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
 </span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
-</span></span></code></pre></div><ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
-
-<h3 id="examples">Examples</h3>
-<p>Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)</p>
-<p>Block math:</p>
-<p>$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p></div>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- To <span class="nb">enable</span> KaTex globally <span class="nb">set</span> the parameter <span class="sb">`</span>math<span class="sb">`</span> to <span class="sb">`</span><span class="nb">true</span><span class="sb">`</span> in a project<span class="err">&#39;</span>s configuration
+</span></span><span class="line"><span class="cl">- To <span class="nb">enable</span> KaTex on a per page basis include the parameter <span class="sb">`</span>math: <span class="nb">true</span><span class="sb">`</span> in content files
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">**Note:** Use the online reference of <span class="o">[</span>Supported TeX Functions<span class="o">](</span>https://katex.org/docs/supported.html<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">### Examples</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Inline math: <span class="se">\\</span><span class="o">(</span><span class="se">\v</span>arphi <span class="o">=</span> <span class="se">\d</span>frac<span class="o">{</span>1+<span class="se">\s</span>qrt5<span class="o">}{</span>2<span class="o">}=</span> 1.6180339887…<span class="se">\\</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Block math:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$$</span>
+</span></span><span class="line"><span class="cl"> <span class="se">\v</span>arphi <span class="o">=</span> 1+<span class="se">\f</span>rac<span class="o">{</span>1<span class="o">}</span> <span class="o">{</span>1+<span class="se">\f</span>rac<span class="o">{</span>1<span class="o">}</span> <span class="o">{</span>1+<span class="se">\f</span>rac<span class="o">{</span>1<span class="o">}</span> <span class="o">{</span>1+<span class="se">\c</span>dots<span class="o">}</span> <span class="o">}</span> <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$$</span>
+</span></span></code></pre></div></div>
     <div class="post__footer">
       
 
@@ -509,18 +519,21 @@ $$</p></div>
         2024
       
     </li>
-    
       <li class="footer__item">
         <a
           class="link"
-          href="/imprint/"
-          
-          title=""
+          href="https://github.com/doanvtamhuynh/anatole_custom"
         >
-          Thông tin pháp lý
+        Anatole_custom
+        </a>
+        theme on
+        <a
+          class="link"
+          href="https://gohugo.io/"
+        >
+        Hugo
         </a>
       </li>
-    
   </ul>
 </footer>
   

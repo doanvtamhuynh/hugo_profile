@@ -1,25 +1,7 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "Giới thiệu"
+date = "2024-11-19"
+author = "Tam Huynh"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-
-Hugo makes use of a variety of open source projects including:
-
-- https://github.com/yuin/goldmark
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Là một Nhà phát triển phần mềm tận tụy và đam mê, tôi có nhiều kinh nghiệm trong việc thiết kế, phát triển và bảo trì các ứng dụng phần mềm trên nhiều nền tảng khác nhau. Chuyên môn của tôi bao gồm thành thạo ngôn ngữ lập trình, cũng như kinh nghiệm với các công nghệ front-end và back-end. Tôi cam kết clean code, hiệu quả và liên tục cải thiện kỹ năng của mình để luôn cập nhật các xu hướng mới nhất của ngành. Khả năng giải quyết vấn đề mạnh mẽ và bản chất cộng tác của tôi cho phép tôi làm việc hiệu quả trong các nhóm và đóng góp vào kết quả thành công của dự án. Tôi luôn háo hức đón nhận những thách thức mới và đổi mới các giải pháp thúc đẩy thành công trong kinh doanh.

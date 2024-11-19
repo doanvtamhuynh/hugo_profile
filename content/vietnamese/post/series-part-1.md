@@ -2,17 +2,17 @@
 author: Hugo Authors
 title: Series Part 1
 date: 2021-08-14
-description: A brief guide to how to setup series part 1
+description: Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series
 series:
   - series-setup
 ---
 
-In this first part of the series we'll show you how to create a series
+Trong phần đầu tiên của loạt bài này, chúng tôi sẽ chỉ cho bạn cách tạo một loạt bài
 
 <!--more-->
 
-As a first step we need to add series as a taxonomy. We can do this by editing the `config.toml`.  
-Note: We always need to define the existing taxonomies as well.
+Bước đầu tiên, chúng ta cần thêm series dưới dạng phân loại. Chúng ta có thể thực hiện việc này bằng cách chỉnh sửa `config.toml`.
+Lưu ý: Chúng ta luôn cần phải xác định các phân loại hiện có.
 
 ```toml
 [taxonomies]
@@ -21,11 +21,11 @@ Note: We always need to define the existing taxonomies as well.
     tag = "tags"
 ```
 
-Now we have the series enabled, the next thing we need to do is add the series name in the FrontMatter.
-For our example we'll use this post and the next part.
+Bây giờ chúng ta đã bật chuỗi, việc tiếp theo chúng ta cần làm là thêm tên chuỗi vào FrontMatter.
+Đối với ví dụ của chúng ta, chúng ta sẽ sử dụng bài đăng này và phần tiếp theo.
 
-As you can see we've set the series to `series-setup`. We also do the same in the next parts of the series.  
-This end results should be a Front Matter that looks similar to this:
+Như bạn có thể thấy, chúng ta đã đặt chuỗi thành `series-setup`. Chúng ta cũng làm tương tự trong các phần tiếp theo của chuỗi.
+Kết quả cuối cùng này sẽ là một Front Matter trông giống như thế này:
 
 ```md
 ---
@@ -38,4 +38,4 @@ series:
 ---
 ```
 
-Each individual post will now also show the other posts in the series under the `Posts in this Series` heading.
+Mỗi bài đăng riêng lẻ giờ đây cũng sẽ hiển thị các bài đăng khác trong chuỗi dưới tiêu đề `Bài đăng trong chuỗi này`.

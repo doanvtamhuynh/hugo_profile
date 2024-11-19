@@ -25,7 +25,7 @@
       
       <guid>http://localhost:1313/vi/post/series-part-2/</guid>
       
-        <description>A brief guide to how to setup series part 2</description>
+        <description>Hướng dẫn ngắn gọn về cách thiết lập phần 2 của series</description>
       
     </item>
     
@@ -36,7 +36,7 @@
       
       <guid>http://localhost:1313/vi/post/series-part-1/</guid>
       
-        <description>A brief guide to how to setup series part 1</description>
+        <description>Hướng dẫn ngắn gọn về cách thiết lập phần 1 của series</description>
       
     </item>
     
@@ -52,24 +52,24 @@
     </item>
     
     <item>
-      <title>The Figure Shortcode</title>
+      <title>Shortcode Figure</title>
       <link>http://localhost:1313/vi/post/figure-shortcode/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/figure-shortcode/</guid>
       
-        <description>&lt;p&gt;Hugo has &lt;code&gt;figure&lt;/code&gt; shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:&lt;/p&gt;</description>
+        <description>&lt;p&gt;Hugo có sẵn shortcode &lt;code&gt;figure&lt;/code&gt;, giúp bạn dễ dàng thêm chú thích hoặc thuộc tính liên kết (hyperlink rel) vào hình ảnh. Tài liệu hướng dẫn chi tiết có tại đây:&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
+      <title>Hướng Dẫn Cú Pháp Markdown</title>
       <link>http://localhost:1313/vi/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/markdown-syntax/</guid>
       
-        <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+        <description>Bài viết mẫu giới thiệu cú pháp Markdown cơ bản và định dạng cho các phần tử HTML.</description>
       
     </item>
     
@@ -96,35 +96,35 @@
     </item>
     
     <item>
-      <title>Math Typesetting</title>
+      <title>Định Dạng Toán Học</title>
       <link>http://localhost:1313/vi/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/math-typesetting/</guid>
       
-        <description>A brief guide to setup KaTeX</description>
+        <description>Hướng dẫn ngắn gọn để thiết lập KaTeX</description>
       
     </item>
     
     <item>
-      <title>Emoji Support</title>
+      <title>Hỗ trợ Emoji</title>
       <link>http://localhost:1313/vi/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/emoji-support/</guid>
       
-        <description>Guide to emoji usage in Hugo</description>
+        <description>Hướng dẫn sử dụng emoji trong Hugo</description>
       
     </item>
     
     <item>
-      <title>Guide to Thumbnails in Hugo</title>
+      <title>Hướng Dẫn Sử Dụng Hình Thu Nhỏ (Thumbnail) trong Hugo</title>
       <link>http://localhost:1313/vi/post/image-test/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/vi/post/image-test/</guid>
       
-        <description>Guide to Thumbnails in Hugo</description>
+        <description>Hướng Dẫn Sử Dụng Hình Thu Nhỏ trong Hugo</description>
       
     </item>
     
